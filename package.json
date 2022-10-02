@@ -10,14 +10,15 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:vscode-random.helloWorld"
+        "onCommand:vscode-random.rollDice"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "vscode-random.helloWorld",
-                "title": "Hello World"
+                "command": "vscode-random.rollDice",
+                "category": "Random",
+                "title": "Roll 6 Dice"
             }
         ]
     },
