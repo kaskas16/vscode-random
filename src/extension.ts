@@ -12,6 +12,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 export function deactivate() { }
 
-function rollDice(): number {
+export function rollDice(): number {
     return 1 + Math.floor(Math.random() * 6);
 }
